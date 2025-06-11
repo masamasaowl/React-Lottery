@@ -1,0 +1,12 @@
+.Ticket{
+    width: 100vh;
+    background-color: chocolate;
+    display: flex;
+    justify-content: space-evenly;
+}
+.num{
+    width: 10rem;
+    font-size: 20vh;
+    border: 2px solid black;
+    text-align: center;
+}

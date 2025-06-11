@@ -1,0 +1,25 @@
+.Footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #ff3f81;
+    color: white;
+    animation: spaceGradient 20s ease infinite;
+    font-size: 1.2rem;
+}
+@keyframes spaceGradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
